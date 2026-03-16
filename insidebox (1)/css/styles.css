@@ -1,7 +1,9 @@
 :root {
     --list-gray: #666F74;
     --h1-gray: #727B81;
-    --span-blue:#0A91DE;
+    --stroke-gray: #DDDDDD;
+    --bg-white:#FFFFFF;
+    --blue:#0A91DE;
 }
 
 body {
