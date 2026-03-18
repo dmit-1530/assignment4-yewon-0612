@@ -2,10 +2,38 @@
     --list-gray: #666F74;
     --h1-gray: #727B81;
     --stroke-gray: #DDDDDD;
-    --bg-white:#FFFFFF;
-    --blue:#0A91DE;
+    --bg-gray: #eee;
+    --bg-white: #FFFFFF;
+    --blue: #0A91DE;
 }
 
 body {
     background-color: #eee;
+    font-family: "Manrope", sans-serif;
+}
+
+.inner-container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: var(--h1-gray);
+}
+
+h1 span {
+    color: var(--blue);
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--h1-gray);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
