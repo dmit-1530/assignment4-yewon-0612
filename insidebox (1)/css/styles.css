@@ -21,6 +21,7 @@ h1 {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
     color: var(--h1-gray);
+    font-size: 1.25rem;
 }
 
 h1 span {
@@ -36,4 +37,21 @@ p {
 ul {
     list-style: none;
     padding: 0;
+}
+
+.main-menu li {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+a {
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: var(--list-gray);
+    transition: all 0.3s;
+}
+
+.main-menu li:first-child a:hover,
+a:focus {
+    font-weight: 700;
 }
