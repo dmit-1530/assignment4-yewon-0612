@@ -23,6 +23,8 @@ header {
     background-color: var(--bg-white);
     max-width: 14.5rem;
     height: 100vh;
+    border: 1px solid var(--stroke-gray);
+    padding: 1rem;
 }
 
 h1 {
@@ -40,6 +42,7 @@ p {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--h1-gray);
+    text-decoration: underline solid var(--stroke-gray) 1px;
 }
 
 ul {
@@ -62,5 +65,29 @@ a {
 .main-menu li:first-child a:hover,
 a:focus {
     font-weight: 700;
+}
+
+.sub-menu {
+    position: absolute;
+    left: 12%;
+    top: -1.125rem;
+    max-width: 10.875rem;
+    background-color: var(--bg-white);
+    border: 1px solid var(--blue);
+    border-radius: .4375rem;
+    box-shadow: var(--stroke-gray);
+    z-index: 1;
+    padding: 1.125rem;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sub-menu li {
+    border-bottom: 1px solid #ddd;
+}
+
+.main-menu li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
 }
 
