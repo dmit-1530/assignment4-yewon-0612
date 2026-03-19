@@ -78,7 +78,7 @@ a:focus {
     background-color: var(--bg-white);
     border: 1px solid var(--blue);
     border-radius: .4375rem;
-    box-shadow: var(--stroke-gray);
+    box-shadow: 0 .25rem .25rem 0 var(--stroke-gray);
     z-index: 1;
     padding: .625rem 1.125rem;
     visibility: hidden;
