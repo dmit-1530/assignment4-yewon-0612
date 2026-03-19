@@ -64,7 +64,7 @@ a {
     transition: all 0.3s;
 }
 
-.main-menu li:first-child a:hover,
+.main-menu li a:hover,
 a:focus {
     font-weight: 700;
 }
@@ -83,11 +83,6 @@ a:focus {
     padding: .625rem 1.125rem;
     visibility: hidden;
     opacity: 0;
-}
-
-.sub-menu li:first-child a:hover,
-a:focus {
-    font-weight: 700;
 }
 
 .sub-menu li:last-of-type {
